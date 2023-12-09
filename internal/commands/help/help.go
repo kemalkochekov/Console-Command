@@ -18,7 +18,7 @@ func NewHelpCommand(availableCommands map[string]commands.CommandInterface) *Hel
 	return &HelpCommand{
 		AvailableCommands: availableCommands,
 		Name:              "help",
-		Description:       "Display a list of available commands\n",
+		Description:       "Displays a list of available commands\n",
 		Required:          map[string]struct{}{},
 	}
 }

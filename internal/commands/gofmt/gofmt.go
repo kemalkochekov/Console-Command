@@ -18,7 +18,7 @@ type GofmtCommand struct {
 func NewGofmtCommand() *GofmtCommand {
 	return &GofmtCommand{
 		Name:        "gofmt",
-		Description: "gofmt --file [string] | Accepts an *.txt file as input, and before each paragraph in the output, inserts a tab and places a period at the end of sentences.\n",
+		Description: "gofmt --file [string] | Accepts a *.txt file as input and generates a modified text file with alterations such as inserting a tab before each paragraph and adding a period (.) at the end of sentences.\n",
 		Required:    map[string]struct{}{"file": {}},
 	}
 }
