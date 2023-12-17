@@ -36,6 +36,7 @@ func (c *CLI) Execute(commandName string, args []string) error {
 		return fmt.Errorf("Unknown command: %s", commandName)
 	}
 	arguments := make(map[string]string)
+	fmt.Println(args)
 	for i, arg := range args {
 		if !strings.HasPrefix(arg, "--") {
 			continue
