@@ -1,8 +1,13 @@
-# **Project Title**
-  Console Commands
+# **Console Commands**
+
 ## **Introduction**
 Implemented console commands functionality in the project in a way that requires minimal changes when adding a new command.
 
+## Installation
+Clone this repository
+  ```bash
+    git clone https://github.com/kemalkochekov/Console-Commands.git
+```
 ## How to Run
 ```$
   bar@foo$: go run cmd/cli/main.go
